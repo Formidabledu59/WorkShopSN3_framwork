@@ -1,0 +1,13 @@
+[24/Sep/2024:12:38:12 +0200] [upstream] Upstream starting: /usr/alwaysdata/apache/2.4.59/bin/apache -f /home/workshopsn3/admin/config/apache/apache.conf -D FOREGROUND (env: {'HOME': '/home/workshopsn3', 'LANG': 'en_US.UTF-8', 'LC_ALL': 'en_US.UTF-8', 'PATH': '/home/workshopsn3/.local/bin:/home/workshopsn3/.local/share/gem/ruby/3.3.0/bin:/home/workshopsn3/.gem/ruby/3.3.0/bin:/home/workshopsn3/.composer/vendor/bin:/home/workshopsn3/.npm-packages/bin:/usr/local/bin:/usr/bin:/bin', 'TMPDIR': '/home/workshopsn3/admin/tmp', 'APACHE_ROOT': '/usr/alwaysdata/apache/2.4.59'}, cwd: /home/workshopsn3/)
+[24/Sep/2024:12:38:12 +0200] [upstream] Upstream started PID: 4006905
+[24/Sep/2024:13:56:25 +0200] [upstream] [4006905] SIGTERM sent to upstream
+[24/Sep/2024:13:56:25 +0200] [upstream] [4006905] Upstream stopped (reason: idle)
+[24/Sep/2024:14:15:26 +0200] [upstream] Upstream starting: /usr/alwaysdata/apache/2.4.59/bin/apache -f /home/workshopsn3/admin/config/apache/apache.conf -D FOREGROUND (env: {'HOME': '/home/workshopsn3', 'LANG': 'en_US.UTF-8', 'LC_ALL': 'en_US.UTF-8', 'PATH': '/home/workshopsn3/.local/bin:/home/workshopsn3/.local/share/gem/ruby/3.3.0/bin:/home/workshopsn3/.gem/ruby/3.3.0/bin:/home/workshopsn3/.composer/vendor/bin:/home/workshopsn3/.npm-packages/bin:/usr/local/bin:/usr/bin:/bin', 'TMPDIR': '/home/workshopsn3/admin/tmp', 'APACHE_ROOT': '/usr/alwaysdata/apache/2.4.59'}, cwd: /home/workshopsn3/)
+[24/Sep/2024:14:15:26 +0200] [upstream] Upstream started PID: 4112111
+[24/Sep/2024:15:22:29 +0200] [upstream] [4112111] SIGTERM sent to upstream
+[24/Sep/2024:15:22:29 +0200] [upstream] [4112111] Upstream stopped (reason: idle)
+[24/Sep/2024:20:50:19 +0200] [upstream] Upstream starting: /usr/alwaysdata/apache/2.4.59/bin/apache -f /home/workshopsn3/admin/config/apache/apache.conf -D FOREGROUND (env: {'HOME': '/home/workshopsn3', 'LANG': 'en_US.UTF-8', 'LC_ALL': 'en_US.UTF-8', 'PATH': '/home/workshopsn3/.local/bin:/home/workshopsn3/.local/share/gem/ruby/3.3.0/bin:/home/workshopsn3/.gem/ruby/3.3.0/bin:/home/workshopsn3/.composer/vendor/bin:/home/workshopsn3/.npm-packages/bin:/usr/local/bin:/usr/bin:/bin', 'TMPDIR': '/home/workshopsn3/admin/tmp', 'APACHE_ROOT': '/usr/alwaysdata/apache/2.4.59'}, cwd: /home/workshopsn3/)
+[24/Sep/2024:20:50:19 +0200] [upstream] Upstream started PID: 369312
+[24/Sep/2024:20:50:38 +0200] [upstream] [369312] SIGUSR1 sent to upstream
+[24/Sep/2024:20:50:54 +0200] [upstream] [369312] SIGUSR1 sent to upstream
+[24/Sep/2024:21:07:53 +0200] [upstream] [369312] SIGUSR1 sent to upstream

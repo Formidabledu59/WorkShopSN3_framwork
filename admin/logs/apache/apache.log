@@ -1,0 +1,56 @@
+[Tue Sep 24 10:51:52.853074 2024] [fcgid:info] [pid 3891464:tid 139756420437888] mod_fcgid: Process manager 3891464 started
+[Tue Sep 24 10:51:52.855928 2024] [mpm_event:notice] [pid 3891462:tid 139756420437888] AH00489: Apache/2.4.59 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Tue Sep 24 10:51:52.856029 2024] [mpm_event:info] [pid 3891462:tid 139756420437888] AH00490: Server built: May 31 2024 08:01:46
+[Tue Sep 24 10:51:52.856037 2024] [core:notice] [pid 3891462:tid 139756420437888] AH00094: Command line: '/usr/alwaysdata/apache/2.4.59/bin/apache -f /home/workshopsn3/admin/config/apache/apache.conf -D FOREGROUND'
+[Tue Sep 24 11:22:18.281545 2024] [mpm_event:notice] [pid 3891462:tid 139756420437888] AH00491: caught SIGTERM, shutting down
+[Tue Sep 24 11:22:18.292978 2024] [fcgid:info] [pid 3891464:tid 139756420437888] mod_fcgid: Process manager 3891464 stopped
+[Tue Sep 24 12:38:12.273555 2024] [fcgid:info] [pid 4006907:tid 139785081800576] mod_fcgid: Process manager 4006907 started
+[Tue Sep 24 12:38:12.276431 2024] [mpm_event:notice] [pid 4006905:tid 139785081800576] AH00489: Apache/2.4.59 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Tue Sep 24 12:38:12.276529 2024] [mpm_event:info] [pid 4006905:tid 139785081800576] AH00490: Server built: May 31 2024 08:01:46
+[Tue Sep 24 12:38:12.276537 2024] [core:notice] [pid 4006905:tid 139785081800576] AH00094: Command line: '/usr/alwaysdata/apache/2.4.59/bin/apache -f /home/workshopsn3/admin/config/apache/apache.conf -D FOREGROUND'
+[Tue Sep 24 12:38:12.506426 2024] [autoindex:error] [pid 4006908:tid 139785065961152] [client 37.169.155.230:0] AH01276: Cannot serve directory /home/workshopsn3/www/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Tue Sep 24 12:38:12.652058 2024] [core:info] [pid 4006908:tid 139785057568448] [client 37.169.155.230:0] AH00128: File does not exist: /home/workshopsn3/www/favicon.ico, referer: https://workshopsn3.alwaysdata.net/
+[Tue Sep 24 13:00:56.732522 2024] [autoindex:error] [pid 4006908:tid 139785023997632] [client 37.169.155.230:0] AH01276: Cannot serve directory /home/workshopsn3/www/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Tue Sep 24 13:01:06.119826 2024] [autoindex:error] [pid 4006908:tid 139784542484160] [client 37.169.155.230:0] AH01276: Cannot serve directory /home/workshopsn3/www/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Tue Sep 24 13:01:07.239517 2024] [autoindex:error] [pid 4006908:tid 139784743810752] [client 37.169.155.230:0] AH01276: Cannot serve directory /home/workshopsn3/www/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Tue Sep 24 13:26:07.918039 2024] [autoindex:error] [pid 4006908:tid 139784727025344] [client 37.169.155.230:0] AH01276: Cannot serve directory /home/workshopsn3/www/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Tue Sep 24 13:56:25.638421 2024] [mpm_event:notice] [pid 4006905:tid 139785081800576] AH00491: caught SIGTERM, shutting down
+[Tue Sep 24 13:56:25.649712 2024] [fcgid:info] [pid 4006907:tid 139785081800576] mod_fcgid: Process manager 4006907 stopped
+[Tue Sep 24 14:15:26.332231 2024] [fcgid:info] [pid 4112113:tid 140515416225664] mod_fcgid: Process manager 4112113 started
+[Tue Sep 24 14:15:26.335171 2024] [mpm_event:notice] [pid 4112111:tid 140515416225664] AH00489: Apache/2.4.59 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Tue Sep 24 14:15:26.335273 2024] [mpm_event:info] [pid 4112111:tid 140515416225664] AH00490: Server built: May 31 2024 08:01:46
+[Tue Sep 24 14:15:26.335282 2024] [core:notice] [pid 4112111:tid 140515416225664] AH00094: Command line: '/usr/alwaysdata/apache/2.4.59/bin/apache -f /home/workshopsn3/admin/config/apache/apache.conf -D FOREGROUND'
+[Tue Sep 24 14:15:26.567327 2024] [autoindex:error] [pid 4112114:tid 140515400386240] [client 37.169.155.230:0] AH01276: Cannot serve directory /home/workshopsn3/www/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Tue Sep 24 14:24:39.539306 2024] [core:info] [pid 4112114:tid 140515383600832] [client 37.169.155.230:0] AH00128: File does not exist: /home/workshopsn3/www/favicon.ico, referer: https://workshopsn3.alwaysdata.net/
+[Tue Sep 24 14:52:06.716743 2024] [autoindex:error] [pid 4112114:tid 140515366815424] [client 37.169.155.230:0] AH01276: Cannot serve directory /home/workshopsn3/www/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Tue Sep 24 15:22:29.932282 2024] [mpm_event:notice] [pid 4112111:tid 140515416225664] AH00491: caught SIGTERM, shutting down
+[Tue Sep 24 15:22:29.943521 2024] [fcgid:info] [pid 4112113:tid 140515416225664] mod_fcgid: Process manager 4112113 stopped
+[Tue Sep 24 20:50:19.862118 2024] [fcgid:info] [pid 369314:tid 140279898920832] mod_fcgid: Process manager 369314 started
+[Tue Sep 24 20:50:19.865144 2024] [mpm_event:notice] [pid 369312:tid 140279898920832] AH00489: Apache/2.4.59 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Tue Sep 24 20:50:19.865251 2024] [mpm_event:info] [pid 369312:tid 140279898920832] AH00490: Server built: May 31 2024 08:01:46
+[Tue Sep 24 20:50:19.865259 2024] [core:notice] [pid 369312:tid 140279898920832] AH00094: Command line: '/usr/alwaysdata/apache/2.4.59/bin/apache -f /home/workshopsn3/admin/config/apache/apache.conf -D FOREGROUND'
+[Tue Sep 24 20:50:20.098513 2024] [fcgid:info] [pid 369314:tid 140279898920832] mod_fcgid: server workshopsn3.alwaysdata.net:/usr/bin/env(369581) started
+[Tue Sep 24 20:50:38.898161 2024] [mpm_event:notice] [pid 369312:tid 140279898920832] AH00493: SIGUSR1 received.  Doing graceful restart
+[Tue Sep 24 20:50:38.989961 2024] [fcgid:info] [pid 369314:tid 140279898920832] mod_fcgid: process /usr/bin/env(369581) exit(shutting down), terminated by calling exit(), return code: 0
+[Tue Sep 24 20:50:38.989987 2024] [fcgid:info] [pid 369314:tid 140279898920832] mod_fcgid: Process manager 369314 stopped
+[Tue Sep 24 20:50:38.998566 2024] [mpm_event:notice] [pid 369312:tid 140279898920832] AH00489: Apache/2.4.59 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Tue Sep 24 20:50:38.998590 2024] [mpm_event:info] [pid 369312:tid 140279898920832] AH00490: Server built: May 31 2024 08:01:46
+[Tue Sep 24 20:50:38.998599 2024] [core:notice] [pid 369312:tid 140279898920832] AH00094: Command line: '/usr/alwaysdata/apache/2.4.59/bin/apache -f /home/workshopsn3/admin/config/apache/apache.conf -D FOREGROUND'
+[Tue Sep 24 20:50:38.998750 2024] [fcgid:info] [pid 369692:tid 140279898920832] mod_fcgid: Process manager 369692 started
+[Tue Sep 24 20:50:40.335350 2024] [fcgid:info] [pid 369692:tid 140279898920832] mod_fcgid: server workshopsn3.alwaysdata.net:/usr/bin/env(370317) started
+[Tue Sep 24 20:50:54.580116 2024] [mpm_event:notice] [pid 369312:tid 140279898920832] AH00493: SIGUSR1 received.  Doing graceful restart
+[Tue Sep 24 20:50:54.671542 2024] [fcgid:info] [pid 369692:tid 140279898920832] mod_fcgid: process /usr/bin/env(370317) exit(shutting down), terminated by calling exit(), return code: 0
+[Tue Sep 24 20:50:54.671573 2024] [fcgid:info] [pid 369692:tid 140279898920832] mod_fcgid: Process manager 369692 stopped
+[Tue Sep 24 20:50:54.680071 2024] [mpm_event:notice] [pid 369312:tid 140279898920832] AH00489: Apache/2.4.59 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Tue Sep 24 20:50:54.680086 2024] [mpm_event:info] [pid 369312:tid 140279898920832] AH00490: Server built: May 31 2024 08:01:46
+[Tue Sep 24 20:50:54.680093 2024] [core:notice] [pid 369312:tid 140279898920832] AH00094: Command line: '/usr/alwaysdata/apache/2.4.59/bin/apache -f /home/workshopsn3/admin/config/apache/apache.conf -D FOREGROUND'
+[Tue Sep 24 20:50:54.680171 2024] [fcgid:info] [pid 370862:tid 140279898920832] mod_fcgid: Process manager 370862 started
+[Tue Sep 24 20:50:57.274337 2024] [fcgid:info] [pid 370862:tid 140279898920832] mod_fcgid: server workshopsn3.alwaysdata.net:/usr/bin/env(371128) started
+[Tue Sep 24 21:07:53.341667 2024] [mpm_event:notice] [pid 369312:tid 140279898920832] AH00493: SIGUSR1 received.  Doing graceful restart
+[Tue Sep 24 21:07:53.433149 2024] [fcgid:info] [pid 370862:tid 140279898920832] mod_fcgid: process /usr/bin/env(371128) exit(shutting down), terminated by calling exit(), return code: 0
+[Tue Sep 24 21:07:53.433191 2024] [fcgid:info] [pid 370862:tid 140279898920832] mod_fcgid: Process manager 370862 stopped
+[Tue Sep 24 21:07:53.443104 2024] [mpm_event:notice] [pid 369312:tid 140279898920832] AH00489: Apache/2.4.59 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Tue Sep 24 21:07:53.443131 2024] [mpm_event:info] [pid 369312:tid 140279898920832] AH00490: Server built: May 31 2024 08:01:46
+[Tue Sep 24 21:07:53.443137 2024] [core:notice] [pid 369312:tid 140279898920832] AH00094: Command line: '/usr/alwaysdata/apache/2.4.59/bin/apache -f /home/workshopsn3/admin/config/apache/apache.conf -D FOREGROUND'
+[Tue Sep 24 21:07:53.443175 2024] [fcgid:info] [pid 391400:tid 140279898920832] mod_fcgid: Process manager 391400 started
+[Tue Sep 24 21:07:58.940250 2024] [fcgid:info] [pid 391400:tid 140279898920832] mod_fcgid: server workshopsn3.alwaysdata.net:/usr/bin/env(391686) started
