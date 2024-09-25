@@ -8,6 +8,14 @@ use CodeIgniter\Controller;
 
 class Caccueil extends Controller
 {
+    protected $session;
+    
+    public function __construct()
+    {
+        // Initialisation de la session
+        $this->session = \Config\Services::session();
+    }
+
     public function index()
     {
         $page['contenu'] = view('v_accueil');

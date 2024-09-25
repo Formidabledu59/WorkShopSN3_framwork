@@ -33,7 +33,7 @@
                 </div>
                 <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-500">Connexion</button>
                 <div class="register-link mt-4 text-white">
-                    <p>Nouvelle Utilisateur ? <a href="<?php echo base_url('inscription') ?>" class="text-blue-400 hover:underline">Inscription</a></p>
+                    <p>Nouvelle Utilisateur ? <a href="<?php echo base_url('') ?>" class="text-blue-400 hover:underline">Inscription</a></p>
                 </div>
             </form>
         </div>

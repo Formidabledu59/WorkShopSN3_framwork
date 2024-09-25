@@ -7,8 +7,22 @@ use CodeIgniter\Controller;
 
 class Cconnexion extends BaseController
 {
+
+    protected $session;
+    
+    public function __construct()
+    {
+        // Initialisation de la session
+        $this->session = \Config\Services::session();
+    }
+
     public function index()
     {
+        // Vérifie si l'étudiant est connecté
+        if ($this->session->has('id_etudiant')) {
+            return redirect()->to(''); // Redirige vers la page de connexion si non connecté
+        }
+
         $page['contenu'] = view('v_connexion');
         $page['css'] = 'css/style_connexion.css';
         return view('Commun/v_template', $page);
@@ -16,7 +30,7 @@ class Cconnexion extends BaseController
 
     public function authentification()
     {
-        $session = \Config\Services::session();
+
 
         $model = new Metudiant();
 
@@ -28,9 +42,9 @@ class Cconnexion extends BaseController
             // Compare directement le mot de passe sans hachage
             if ($dataLogin['password'] === $result['pass']) {
                 // Stocke l'ID de l'étudiant dans la session
-                $session->set([
+                $this->session->set([
                     'id_etudiant' => $result['id_etudiant']
-                    
+
                 ]);
                 return redirect()->to('Caccueil'); // Redirige vers la page d'accueil
             }

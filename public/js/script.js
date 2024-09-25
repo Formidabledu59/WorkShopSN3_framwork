@@ -1,5 +1,4 @@
 const baseURL = 'http://workshop.local/';
-// const baseURL = 'http://workshopsn3.alwaysdata.net/';
 
 // S'assurer que le DOM est complètement chargé avant d'exécuter le script
 document.addEventListener('DOMContentLoaded', function () {

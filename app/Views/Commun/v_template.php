@@ -38,7 +38,7 @@
 
                         <li><a href="<?php echo base_url('fiche_etudiant.html'); ?>" class="hover:underline">Profil Étudiant</a></li>
                         <li><a href="#modules" class="hover:underline">Modules</a></li>
-                        <li><a href="#logout" class="hover:underline">Déconnexion</a></li>
+                        <li><a href="<?php echo base_url('Cconnexion/Deconnexion'); ?>" class="hover:underline">Déconnexion</a></li>
 
                     <?php   } else {
                     ?>
