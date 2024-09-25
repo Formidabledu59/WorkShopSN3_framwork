@@ -9,7 +9,7 @@ class Caccueil extends BaseController
     public function index()
     {
         $page['contenu'] = view('v_accueil');
-        $page['css'] = 'css/style_accueil.js';
+        $page['css'] = 'css/style_accueil.css';
         return view('Commun/v_template', $page);
     }
 
@@ -18,23 +18,10 @@ class Caccueil extends BaseController
  {
      $checkEtudiantModel = new Mcheck_etudiant();
 
-     // Récupérer les données du formulaire
-     $email = $this->request->getPost('email');
-     $password = $this->request->getPost('password');
-     $message = $this->request->getPost('message');
-
-     // Hachage du mot de passe avant l'insertion
-     $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-
-     // Préparation des données à insérer
-     $data = [
-         'mail' => $email,
-         'pass' => $hashedPassword,
-         'msg'  => $message
-     ];
+     $dataRegister = $this->request->getPost();
 
      // Insertion dans la base de données
-     if ($checkEtudiantModel->insert($data)) {
+     if ($checkEtudiantModel->createEtudiant($dataRegister)) {
          return redirect()->to('/success'); // Redirection vers une page de succès
      } else {
          return redirect()->back()->with('error', 'Erreur lors de l\'inscription');

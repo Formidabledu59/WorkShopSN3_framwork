@@ -44,7 +44,7 @@
                     ?>
 
                         <li><a href="<?php echo base_url('Chub'); ?>" class="hover:underline">Il faut être connecté</a></li>
-                        <li><a href="#login" class="hover:underline">Connexion</a></li>
+                        <li><a href="<?php echo base_url('Cconnexion'); ?>" class="hover:underline">Connexion</a></li>
 
                     <?php
 
