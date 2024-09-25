@@ -1,3 +1,6 @@
+const baseURL = 'http://workshop.local/';
+// const baseURL = 'http://workshopsn3.alwaysdata.net/';
+
 // S'assurer que le DOM est complètement chargé avant d'exécuter le script
 document.addEventListener('DOMContentLoaded', function () {
 
@@ -81,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
             formData.append('msg', message);
 
             // Envoi des données à l'API
-            fetch('http://workshop.local/Api/Etudiant', {
+            fetch(`${baseURL}Api/Etudiant`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded' // Définir le type de contenu
