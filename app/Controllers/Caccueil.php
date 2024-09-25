@@ -1,10 +1,12 @@
 <?php
 
 namespace App\Controllers;
+
 use App\Models\Mcheck_etudiant;
+
 use CodeIgniter\Controller;
 
-class Caccueil extends BaseController
+class Caccueil extends Controller
 {
     public function index()
     {
@@ -13,19 +15,26 @@ class Caccueil extends BaseController
         return view('Commun/v_template', $page);
     }
 
- // Fonction pour gérer l'inscription
- public function register()
- {
-     $checkEtudiantModel = new Mcheck_etudiant();
+    // Fonction pour gérer l'inscription
+    public function register()
+    {
+        $request = \Config\Services::request();
 
-     $dataRegister = $this->request->getPost();
+        $checkEtudiantModel = new Mcheck_etudiant();
 
-     // Insertion dans la base de données
-     if ($checkEtudiantModel->createEtudiant($dataRegister)) {
-         return redirect()->to('/success'); // Redirection vers une page de succès
-     } else {
-         return redirect()->back()->with('error', 'Erreur lors de l\'inscription');
-     }
- }
+        $etdMail = $request->getPost('mail');
+        $etdPass = $request->getPost('password');
+        $etdMsg = $request->getPost('msg');
+        if ($etdMsg == "NULL" or $etdMsg == "") {
+            $etdMsg = NULL;
+        }
 
+        $dataRegister = [
+            'mail' => $etdMail,
+            'pass' => $etdPass,
+            'msg' => $etdMsg
+        ];
+
+        $data['result'] = $checkEtudiantModel->createEtudiant($dataRegister);
+    }
 }

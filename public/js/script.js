@@ -52,8 +52,9 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         // Gestion de la soumission du formulaire d'inscription
-        document.getElementById('registerBtn').addEventListener('click', function (e) {
-            e.preventDefault();
+        registerForm.addEventListener('submit', function (e) {
+            e.preventDefault(); // Empêche l'envoi par défaut du formulaire
+            
             const email = document.getElementById('registerEmail').value;
             const password = document.getElementById('registerPassword').value;
             const message = document.getElementById('registerMessage').value;
@@ -73,13 +74,33 @@ document.addEventListener('DOMContentLoaded', function () {
                 return;
             }
 
-            if (email && password) {
-                // Afficher le message de confirmation
-                confirmationMessage.classList.remove('hidden');
-                registerForm.classList.remove('hidden'); 
-            } else {
-                alert("Merci de remplir tous les champs");
-            }
+            // Création des données à envoyer sous forme de URL-encoded
+            const formData = new URLSearchParams();
+            formData.append('mail', email);
+            formData.append('pass', password);
+            formData.append('msg', message);
+
+            // Envoi des données à l'API
+            fetch('http://workshop.local/Api/Etudiant', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded' // Définir le type de contenu
+                },
+                body: formData.toString() // Convertir les données en chaîne URL-encoded
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Erreur lors de l\'envoi des données');
+                }
+                return response.json(); // Convertir la réponse en JSON
+            })
+            .then(data => {
+                console.log('Succès:', data);
+                confirmationMessage.classList.remove('hidden'); // Afficher le message de confirmation
+            })
+            .catch((error) => {
+                console.error('Erreur:', error);
+            });
         });
     }
 

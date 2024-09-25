@@ -16,7 +16,7 @@
     <header class="bg-blue-600 text-white p-6 shadow-md">
         <div class="container mx-auto flex justify-between items-center">
             <?php
-            if (isset($_SESSION['login']) == TRUE) {
+            if (isset($_SESSION['id_etudiant']) == TRUE) {
             ?>
 
                 <h1 class="text-3xl font-bold"><a href="<?php echo base_url('Chub'); ?>">EpsiConect</a></h1>
@@ -33,7 +33,7 @@
 
                 <ul class="flex space-x-6">
                     <?php
-                    if (isset($_SESSION['login']) == TRUE) {
+                    if (isset($_SESSION['id_etudiant']) == TRUE) {
                     ?>
 
                         <li><a href="<?php echo base_url('fiche_etudiant.html'); ?>" class="hover:underline">Profil Étudiant</a></li>

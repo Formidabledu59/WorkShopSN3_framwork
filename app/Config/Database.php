@@ -26,10 +26,10 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => 'localhost',
-        'username'     => 'root',
-        'password'     => '',
-        'database'     => 'bddepsi',
+        'hostname'     => 'mysql-workshopsn3.alwaysdata.net',
+        'username'     => '377335',
+        'password'     => 'alwaysdata2000',
+        'database'     => 'workshopsn3_bdd',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,

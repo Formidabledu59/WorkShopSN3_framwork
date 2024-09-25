@@ -28,20 +28,21 @@
             </div> -->
 
         <!-- Registration Form -->
-            <form action="<?php echo base_url('Caccueil/register'); ?>" method="post" id="registerForm" class="space-y-4 hidden">
-                <h2 class="text-2xl font-bold">Inscription</h2>
-                <?php $message = "Veuillez entrer vos informations : ";?>
-                <p><?php echo $message;?></p>
 
-                <input type="email" name="email" placeholder="Email" class="w-full p-2 border border-gray-300 rounded" id="registerEmail" required>
+        <form method="POST" action=<?php echo base_url("Caccueil/register"); ?> id="registerForm" class="space-y-4 hidden">
+            <h2 class="text-2xl font-bold">Inscription</h2>
+            <?php $message = "Veuillez entrer vos informations : "; ?>
+            <p><?php echo $message; ?></p>
 
-                <input type="password" name="password" placeholder="Mot de passe" class="w-full p-2 border border-gray-300 rounded" id="registerPassword" required>
+            <input type="email" name="mail" placeholder="Email" class="w-full p-2 border border-gray-300 rounded" id="registerEmail" required>
 
-                <textarea name="message" placeholder="Message pour les admins" class="w-full p-2 border border-gray-300 rounded" id="registerMessage"></textarea>
+            <input type="password" name="pass" placeholder="Mot de passe" class="w-full p-2 border border-gray-300 rounded" id="registerPassword" required>
 
-                <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded" id="registerBtn">S'inscrire</button>
+            <textarea name="msg" placeholder="Message pour les admins" class="w-full p-2 border border-gray-300 rounded" id="registerMessage"></textarea>
 
-                <p id="confirmationMessage" class="text-green-500 hidden">Vos informations sont en cours de traitement, vous serez alerté par mail suite à la création de votre compte.</p>
-            </form>
+            <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded" id="registerBtn">S'inscrire</button>
+
+            <p id="confirmationMessage" class="text-green-500 hidden">Vos informations sont en cours de traitement, vous serez alerté par mail suite à la création de votre compte.</p>
+        </form>
     </div>
 </div>

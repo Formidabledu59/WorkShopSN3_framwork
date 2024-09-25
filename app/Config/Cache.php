@@ -168,4 +168,14 @@ class Cache extends BaseConfig
      * @var bool|list<string>
      */
     public $cacheQueryString = false;
+
+    public $default = [
+        'handler' => 'file',
+        'backupHandler' => 'dummy',
+        'prefix' => '',
+        'storePath' => WRITEPATH . 'cache/',
+        'cacheQueryString' => false,
+        'enabled' => false, // Désactiver le cache
+    ];
+    
 }
