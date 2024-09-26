@@ -20,14 +20,18 @@ class Mcheck_etudiant extends Model {
         return $result ? true : false;
     }
 
+
     public function getAllCheckEtudiant() {
         // Préparation de la requête SQL
         $sql = "SELECT * FROM {$this->table}";
-
+    
         // Exécution de la requête SQL
         $query = $this->db->query($sql);
-        return $query->getRowArray(); // Retourne un tableau associatif
+    
+        // Retourne toutes les lignes sous forme d'un tableau associatif
+        return $query->getResultArray(); 
     }
+    
 
     public function getCheckEtudiant($id) {
         // Préparation de la requête SQL

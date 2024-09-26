@@ -33,10 +33,21 @@
 
                 <ul class="flex space-x-6">
                     <?php
+                    // Liste des IDs autorisés
+                    $authorizedIds = [1, 2, 3, 4];
+
+                    // Vérifier si l'utilisateur est connecté et autorisé
+                    if (isset($_SESSION['id_etudiant']) == TRUE && (in_array($_SESSION['id_etudiant'], $authorizedIds))) {
+                    ?>
+                        <li><a href="<?php echo base_url('Cadmin'); ?>" class="hover:underline">Admin</a></li>
+
+                    <?php   }
+                    ?>
+                    <?php
                     if (isset($_SESSION['id_etudiant']) == TRUE) {
                     ?>
 
-                        <li><a href="<?php echo base_url('fiche_etudiant.html'); ?>" class="hover:underline">Profil Étudiant</a></li>
+                        <li><a href="<?php echo base_url('#'); ?>" class="hover:underline">Profil Étudiant</a></li>
                         <li><a href="#modules" class="hover:underline">Modules</a></li>
                         <li><a href="<?php echo base_url('Cconnexion/Deconnexion'); ?>" class="hover:underline">Déconnexion</a></li>
 

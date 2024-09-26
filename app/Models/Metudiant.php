@@ -4,22 +4,39 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Metudiant extends Model {
+class Metudiant extends Model
+{
     protected $table = 'etudiant';
     protected $primaryKey = 'id_etudiant';
     protected $returnType = 'array';
 
-    public function createEtudiant($nom, $prenom, $mail, $pass, $age, $photo_profil, $bio, $domaine, $interets, $facebook, $instagram, $linkedin, $github) {
-        // Préparation de la requête SQL
-        $sql = "INSERT INTO {$this->table} (nom, prenom, mail, pass, age, photo_profil, bio, domaine, interets, facebook, instagram, linkedin, github) 
-                VALUES ('$nom', '$prenom', '$mail', '$pass', $age, '$photo_profil', '$bio', '$domaine', '$interets', '$facebook', '$instagram', '$linkedin', '$github')";
+    // public function createEtudiant($nom, $prenom, $mail, $pass, $age, $photo_profil, $bio, $domaine, $interets, $facebook, $instagram, $linkedin, $github)
+    // {
+    //     // Préparation de la requête SQL
+    //     $sql = "INSERT INTO {$this->table} (nom, prenom, mail, pass, age, photo_profil, bio, domaine, interets, facebook, instagram, linkedin, github) 
+    //             VALUES ('$nom', '$prenom', '$mail', '$pass', $age, '$photo_profil', '$bio', '$domaine', '$interets', '$facebook', '$instagram', '$linkedin', '$github')";
 
-        // Exécution de la requête SQL
-        $result = $this->db->query($sql);
+    //     // Exécution de la requête SQL
+    //     $result = $this->db->query($sql);
+    //     return $result ? true : false;
+    // }
+
+    public function createEtudiant($data)
+    {
+        // Utilisation de la méthode `query()` avec des paramètres liés pour éviter les injections SQL
+        $sql = "INSERT INTO {$this->table} (mail, pass) VALUES (:mail:, :pass:)";
+    
+        // Exécution de la requête avec les données
+        $result = $this->db->query($sql, [
+            'mail' => $data['mail'],
+            'pass' => $data['pass']
+        ]);
+    
         return $result ? true : false;
     }
-
-    public function getEtudiant($id) {
+    
+    public function getEtudiant($id)
+    {
         // Préparation de la requête SQL
         $sql = "SELECT * FROM {$this->table} WHERE id_etudiant = $id";
 
@@ -28,7 +45,20 @@ class Metudiant extends Model {
         return $query->getRowArray(); // Retourne un tableau associatif
     }
 
-    public function updateEtudiant($id, $nom, $prenom, $mail, $pass, $age, $photo_profil, $bio, $domaine, $interets, $facebook, $instagram, $linkedin, $github) {
+    public function getAllEtudiant()
+    {
+        // Préparation de la requête SQL
+        $sql = "SELECT * FROM {$this->table}";
+
+        // Exécution de la requête SQL
+        $query = $this->db->query($sql);
+
+        // Retourne toutes les lignes sous forme d'un tableau associatif
+        return $query->getResultArray();
+    }
+
+    public function updateEtudiant($id, $nom, $prenom, $mail, $pass, $age, $photo_profil, $bio, $domaine, $interets, $facebook, $instagram, $linkedin, $github)
+    {
         // Préparation de la requête SQL
         $sql = "UPDATE {$this->table} SET nom = '$nom', prenom = '$prenom', mail = '$mail', pass = '$pass', age = $age, 
                 photo_profil = '$photo_profil', bio = '$bio', domaine = '$domaine', interets = '$interets', 
@@ -40,7 +70,8 @@ class Metudiant extends Model {
         return $result ? true : false;
     }
 
-    public function deleteEtudiant($id) {
+    public function deleteEtudiant($id)
+    {
         // Préparation de la requête SQL
         $sql = "DELETE FROM {$this->table} WHERE id_etudiant = $id";
 
@@ -65,4 +96,3 @@ class Metudiant extends Model {
         return null; // Retourne null si l'utilisateur n'existe pas
     }
 }
-
