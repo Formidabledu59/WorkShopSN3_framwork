@@ -442,3 +442,1083 @@ INFO - 2024-09-26 11:32:06 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-09-26 11:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-09-26 11:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-09-26 11:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 11:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 12:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 13:42:15 --> Error: Call to a member function prepare() on null
+[Method: POST, Route: Cfiche/ficheUpdate]
+in APPPATH\Models\Metudiant.php on line 70.
+ 1 APPPATH\Controllers\Cfiche.php(59): App\Models\Metudiant->updateEtudiant([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cfiche->ficheUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cfiche))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 13:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 13:51:05 --> Error: Call to a member function prepare() on null
+[Method: POST, Route: Cfiche/ficheUpdate]
+in APPPATH\Models\Metudiant.php on line 70.
+ 1 APPPATH\Controllers\Cfiche.php(59): App\Models\Metudiant->updateEtudiant([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cfiche->ficheUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cfiche))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 13:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 13:53:58 --> Error: Call to a member function prepare() on null
+[Method: POST, Route: Cfiche/ficheUpdate]
+in APPPATH\Models\Metudiant.php on line 70.
+ 1 APPPATH\Controllers\Cfiche.php(59): App\Models\Metudiant->updateEtudiant([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cfiche->ficheUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cfiche))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 13:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 13:56:51 --> Error: Call to a member function prepare() on null
+[Method: POST, Route: Cfiche/ficheUpdate]
+in APPPATH\Models\Metudiant.php on line 70.
+ 1 APPPATH\Controllers\Cfiche.php(59): App\Models\Metudiant->updateEtudiant([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cfiche->ficheUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cfiche))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 13:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 13:57:29 --> Error: Call to a member function prepare() on null
+[Method: POST, Route: Cfiche/ficheUpdate]
+in APPPATH\Models\Metudiant.php on line 70.
+ 1 APPPATH\Controllers\Cfiche.php(59): App\Models\Metudiant->updateEtudiant([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cfiche->ficheUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cfiche))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 13:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 13:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 14:04:59 --> Error: Call to a member function prepare() on null
+[Method: POST, Route: Cfiche/ficheUpdate]
+in APPPATH\Models\Metudiant.php on line 70.
+ 1 APPPATH\Controllers\Cfiche.php(59): App\Models\Metudiant->updateEtudiant([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cfiche->ficheUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cfiche))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 14:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-26 14:06:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':interets_1:, interets_2 = :interets_2:, interets_3 = :interets_3:, interets_...' at line 4 in C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE etudiant...', 0)
+#1 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE etudiant...')
+#2 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE etudiant...')
+#3 C:\wamp64\www\WorkShopSN3\app\Models\Metudiant.php(71): CodeIgniter\Database\BaseConnection->query('UPDATE etudiant...', Array)
+#4 C:\wamp64\www\WorkShopSN3\app\Controllers\Cfiche.php(59): App\Models\Metudiant->updateEtudiant(Array)
+#5 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Cfiche->ficheUpdate()
+#6 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cfiche))
+#7 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\WorkShopSN3\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-09-26 14:06:19 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':interets_1:, interets_2 = :interets_2:, interets_3 = :interets_3:, interets_...' at line 4
+[Method: POST, Route: Cfiche/ficheUpdate]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Metudiant.php(71): CodeIgniter\Database\BaseConnection->query('UPDATE etudiant 
+                    SET birth_day = :birth_day:, pass = :pass:, num = :num:, adresse = :adresse:, domaine = :domaine:,
+                    git = :git:, instagram = :instagram:, discord = :discord:, linkedin = :linkedin:,
+                    interets_1 = :interets_1:, interets_2 = :interets_2:, interets_3 = :interets_3:, interets_4 = :interets_4:
+                    WHERE id_etudiant = :id:', [...])
+ 2 APPPATH\Controllers\Cfiche.php(59): App\Models\Metudiant->updateEtudiant([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cfiche->ficheUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cfiche))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 14:06:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':interets_1:, interets_2 = :interets_2:, interets_3 = :interets_3:, interets_...' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE etudiant 
+                    SET birth_day = \'2024-09-11\', pass = \'123Parbrise\', num = \'+33 6 12 34 56 78\', adresse = \'25 rue du ketchup\', domaine = \'Développement Full-Stack\',
+                    git = \'https://github.com/username\', instagram = \'https://instagram.com/username\', discord = \'https://discord.com/users/username\', linkedin = \'https://linkedin.com/in/username\',
+                    interets_1 = :interets_1:, interets_2 = :interets_2:, interets_3 = :interets_3:, interets_4 = :interets_4:
+                    WHERE id_etudiant = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE etudiant 
+                    SET birth_day = \'2024-09-11\', pass = \'123Parbrise\', num = \'+33 6 12 34 56 78\', adresse = \'25 rue du ketchup\', domaine = \'Développement Full-Stack\',
+                    git = \'https://github.com/username\', instagram = \'https://instagram.com/username\', discord = \'https://discord.com/users/username\', linkedin = \'https://linkedin.com/in/username\',
+                    interets_1 = :interets_1:, interets_2 = :interets_2:, interets_3 = :interets_3:, interets_4 = :interets_4:
+                    WHERE id_etudiant = \'1\'')
+ 3 APPPATH\Models\Metudiant.php(71): CodeIgniter\Database\BaseConnection->query('UPDATE etudiant 
+                    SET birth_day = :birth_day:, pass = :pass:, num = :num:, adresse = :adresse:, domaine = :domaine:,
+                    git = :git:, instagram = :instagram:, discord = :discord:, linkedin = :linkedin:,
+                    interets_1 = :interets_1:, interets_2 = :interets_2:, interets_3 = :interets_3:, interets_4 = :interets_4:
+                    WHERE id_etudiant = :id:', [...])
+ 4 APPPATH\Controllers\Cfiche.php(59): App\Models\Metudiant->updateEtudiant([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cfiche->ficheUpdate()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cfiche))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 14:06:19 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':interets_1:, interets_2 = :interets_2:, interets_3 = :interets_3:, interets_...' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE etudiant 
+                    SET birth_day = \'2024-09-11\', pass = \'123Parbrise\', num = \'+33 6 12 34 56 78\', adresse = \'25 rue du ketchup\', domaine = \'Développement Full-Stack\',
+                    git = \'https://github.com/username\', instagram = \'https://instagram.com/username\', discord = \'https://discord.com/users/username\', linkedin = \'https://linkedin.com/in/username\',
+                    interets_1 = :interets_1:, interets_2 = :interets_2:, interets_3 = :interets_3:, interets_4 = :interets_4:
+                    WHERE id_etudiant = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE etudiant 
+                    SET birth_day = \'2024-09-11\', pass = \'123Parbrise\', num = \'+33 6 12 34 56 78\', adresse = \'25 rue du ketchup\', domaine = \'Développement Full-Stack\',
+                    git = \'https://github.com/username\', instagram = \'https://instagram.com/username\', discord = \'https://discord.com/users/username\', linkedin = \'https://linkedin.com/in/username\',
+                    interets_1 = :interets_1:, interets_2 = :interets_2:, interets_3 = :interets_3:, interets_4 = :interets_4:
+                    WHERE id_etudiant = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE etudiant 
+                    SET birth_day = \'2024-09-11\', pass = \'123Parbrise\', num = \'+33 6 12 34 56 78\', adresse = \'25 rue du ketchup\', domaine = \'Développement Full-Stack\',
+                    git = \'https://github.com/username\', instagram = \'https://instagram.com/username\', discord = \'https://discord.com/users/username\', linkedin = \'https://linkedin.com/in/username\',
+                    interets_1 = :interets_1:, interets_2 = :interets_2:, interets_3 = :interets_3:, interets_4 = :interets_4:
+                    WHERE id_etudiant = \'1\'')
+ 4 APPPATH\Models\Metudiant.php(71): CodeIgniter\Database\BaseConnection->query('UPDATE etudiant 
+                    SET birth_day = :birth_day:, pass = :pass:, num = :num:, adresse = :adresse:, domaine = :domaine:,
+                    git = :git:, instagram = :instagram:, discord = :discord:, linkedin = :linkedin:,
+                    interets_1 = :interets_1:, interets_2 = :interets_2:, interets_3 = :interets_3:, interets_4 = :interets_4:
+                    WHERE id_etudiant = :id:', [...])
+ 5 APPPATH\Controllers\Cfiche.php(59): App\Models\Metudiant->updateEtudiant([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cfiche->ficheUpdate()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cfiche))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 14:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-26 14:07:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':interets_1:, interets_2 = :interets_2:, interets_3 = :interets_3:, interets_...' at line 4 in C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE etudiant...', 0)
+#1 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE etudiant...')
+#2 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE etudiant...')
+#3 C:\wamp64\www\WorkShopSN3\app\Models\Metudiant.php(71): CodeIgniter\Database\BaseConnection->query('UPDATE etudiant...', Array)
+#4 C:\wamp64\www\WorkShopSN3\app\Controllers\Cfiche.php(59): App\Models\Metudiant->updateEtudiant(Array)
+#5 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Cfiche->ficheUpdate()
+#6 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cfiche))
+#7 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\WorkShopSN3\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+INFO - 2024-09-26 14:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-26 14:08:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':interets_1:, interets_2 = :interets_2:, interets_3 = :interets_3:, interets_...' at line 4 in C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE etudiant...', 0)
+#1 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE etudiant...')
+#2 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE etudiant...')
+#3 C:\wamp64\www\WorkShopSN3\app\Models\Metudiant.php(71): CodeIgniter\Database\BaseConnection->query('UPDATE etudiant...', Array)
+#4 C:\wamp64\www\WorkShopSN3\app\Controllers\Cfiche.php(59): App\Models\Metudiant->updateEtudiant(Array)
+#5 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Cfiche->ficheUpdate()
+#6 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cfiche))
+#7 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\WorkShopSN3\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+INFO - 2024-09-26 14:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-26 14:14:25 --> mysqli_sql_exception: Unknown column 'adresse' in 'field list' in C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE etudiant...', 0)
+#1 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE etudiant...')
+#2 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE etudiant...')
+#3 C:\wamp64\www\WorkShopSN3\app\Models\Metudiant.php(69): CodeIgniter\Database\BaseConnection->query('UPDATE etudiant...', Array)
+#4 C:\wamp64\www\WorkShopSN3\app\Controllers\Cfiche.php(59): App\Models\Metudiant->updateEtudiant(Array)
+#5 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Cfiche->ficheUpdate()
+#6 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cfiche))
+#7 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\WorkShopSN3\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-09-26 14:14:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'adresse' in 'field list'
+[Method: POST, Route: Cfiche/ficheUpdate]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Metudiant.php(69): CodeIgniter\Database\BaseConnection->query('UPDATE etudiant 
+                    SET birth_day = ?, pass = ?, num = ?, adresse = ?, domaine = ?,
+                    git = ?, instagram = ?, discord = ?, linkedin = ?,
+                    interets_1 = ?, interets_2 = ?, interets_3 = ?, interets_4 = ?
+                    WHERE id_etudiant = ?', [...])
+ 2 APPPATH\Controllers\Cfiche.php(59): App\Models\Metudiant->updateEtudiant([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cfiche->ficheUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cfiche))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 14:14:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'adresse' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE etudiant 
+                    SET birth_day = \'2024-09-11\', pass = \'123Parbrise\', num = \'+33 6 12 34 56 78\', adresse = \'25 rue du ketchup\', domaine = \'Développement Full-Stack\',
+                    git = \'https://github.com/username\', instagram = \'https://instagram.com/username\', discord = \'https://discord.com/users/username\', linkedin = \'https://linkedin.com/in/username\',
+                    interets_1 = \'manger\', interets_2 = \'rien faire\', interets_3 = \'dormir\', interets_4 = \'aaaaaaaaaaa\'
+                    WHERE id_etudiant = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE etudiant 
+                    SET birth_day = \'2024-09-11\', pass = \'123Parbrise\', num = \'+33 6 12 34 56 78\', adresse = \'25 rue du ketchup\', domaine = \'Développement Full-Stack\',
+                    git = \'https://github.com/username\', instagram = \'https://instagram.com/username\', discord = \'https://discord.com/users/username\', linkedin = \'https://linkedin.com/in/username\',
+                    interets_1 = \'manger\', interets_2 = \'rien faire\', interets_3 = \'dormir\', interets_4 = \'aaaaaaaaaaa\'
+                    WHERE id_etudiant = \'1\'')
+ 3 APPPATH\Models\Metudiant.php(69): CodeIgniter\Database\BaseConnection->query('UPDATE etudiant 
+                    SET birth_day = ?, pass = ?, num = ?, adresse = ?, domaine = ?,
+                    git = ?, instagram = ?, discord = ?, linkedin = ?,
+                    interets_1 = ?, interets_2 = ?, interets_3 = ?, interets_4 = ?
+                    WHERE id_etudiant = ?', [...])
+ 4 APPPATH\Controllers\Cfiche.php(59): App\Models\Metudiant->updateEtudiant([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cfiche->ficheUpdate()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cfiche))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 14:14:25 --> [Caused by] mysqli_sql_exception: Unknown column 'adresse' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE etudiant 
+                    SET birth_day = \'2024-09-11\', pass = \'123Parbrise\', num = \'+33 6 12 34 56 78\', adresse = \'25 rue du ketchup\', domaine = \'Développement Full-Stack\',
+                    git = \'https://github.com/username\', instagram = \'https://instagram.com/username\', discord = \'https://discord.com/users/username\', linkedin = \'https://linkedin.com/in/username\',
+                    interets_1 = \'manger\', interets_2 = \'rien faire\', interets_3 = \'dormir\', interets_4 = \'aaaaaaaaaaa\'
+                    WHERE id_etudiant = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE etudiant 
+                    SET birth_day = \'2024-09-11\', pass = \'123Parbrise\', num = \'+33 6 12 34 56 78\', adresse = \'25 rue du ketchup\', domaine = \'Développement Full-Stack\',
+                    git = \'https://github.com/username\', instagram = \'https://instagram.com/username\', discord = \'https://discord.com/users/username\', linkedin = \'https://linkedin.com/in/username\',
+                    interets_1 = \'manger\', interets_2 = \'rien faire\', interets_3 = \'dormir\', interets_4 = \'aaaaaaaaaaa\'
+                    WHERE id_etudiant = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE etudiant 
+                    SET birth_day = \'2024-09-11\', pass = \'123Parbrise\', num = \'+33 6 12 34 56 78\', adresse = \'25 rue du ketchup\', domaine = \'Développement Full-Stack\',
+                    git = \'https://github.com/username\', instagram = \'https://instagram.com/username\', discord = \'https://discord.com/users/username\', linkedin = \'https://linkedin.com/in/username\',
+                    interets_1 = \'manger\', interets_2 = \'rien faire\', interets_3 = \'dormir\', interets_4 = \'aaaaaaaaaaa\'
+                    WHERE id_etudiant = \'1\'')
+ 4 APPPATH\Models\Metudiant.php(69): CodeIgniter\Database\BaseConnection->query('UPDATE etudiant 
+                    SET birth_day = ?, pass = ?, num = ?, adresse = ?, domaine = ?,
+                    git = ?, instagram = ?, discord = ?, linkedin = ?,
+                    interets_1 = ?, interets_2 = ?, interets_3 = ?, interets_4 = ?
+                    WHERE id_etudiant = ?', [...])
+ 5 APPPATH\Controllers\Cfiche.php(59): App\Models\Metudiant->updateEtudiant([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cfiche->ficheUpdate()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cfiche))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 14:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 14:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-26 17:40:24 --> mysqli_sql_exception: Unknown column 'groupe' in 'field list' in C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO etu...', 0)
+#1 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO etu...')
+#2 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO etu...')
+#3 C:\wamp64\www\WorkShopSN3\app\Models\Metudiant.php(62): CodeIgniter\Database\BaseConnection->query('INSERT INTO etu...', Array)
+#4 C:\wamp64\www\WorkShopSN3\app\Controllers\Cadmin.php(62): App\Models\Metudiant->createEtudiant(Array)
+#5 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Cadmin->createEtudiant()
+#6 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+#7 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\WorkShopSN3\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-09-26 17:40:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'groupe' in 'field list'
+[Method: GET, Route: Cadmin/createEtudiant]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Metudiant.php(62): CodeIgniter\Database\BaseConnection->query('INSERT INTO etudiant (mail, pass, nom, prenom, groupe) VALUES (:mail:, :pass:, :nom:, :prenom:, :groupe:)', [...])
+ 2 APPPATH\Controllers\Cadmin.php(62): App\Models\Metudiant->createEtudiant([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->createEtudiant()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 17:40:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'groupe' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO etudiant (mail, pass, nom, prenom, groupe) VALUES (\'mmal.agowski@ecoles-epsi.net\', \'Mmalagowski1\', \'MMAL\', \'Agowski\', \'epsi\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO etudiant (mail, pass, nom, prenom, groupe) VALUES (\'mmal.agowski@ecoles-epsi.net\', \'Mmalagowski1\', \'MMAL\', \'Agowski\', \'epsi\')')
+ 3 APPPATH\Models\Metudiant.php(62): CodeIgniter\Database\BaseConnection->query('INSERT INTO etudiant (mail, pass, nom, prenom, groupe) VALUES (:mail:, :pass:, :nom:, :prenom:, :groupe:)', [...])
+ 4 APPPATH\Controllers\Cadmin.php(62): App\Models\Metudiant->createEtudiant([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->createEtudiant()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 17:40:30 --> [Caused by] mysqli_sql_exception: Unknown column 'groupe' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO etudiant (mail, pass, nom, prenom, groupe) VALUES (\'mmal.agowski@ecoles-epsi.net\', \'Mmalagowski1\', \'MMAL\', \'Agowski\', \'epsi\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO etudiant (mail, pass, nom, prenom, groupe) VALUES (\'mmal.agowski@ecoles-epsi.net\', \'Mmalagowski1\', \'MMAL\', \'Agowski\', \'epsi\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO etudiant (mail, pass, nom, prenom, groupe) VALUES (\'mmal.agowski@ecoles-epsi.net\', \'Mmalagowski1\', \'MMAL\', \'Agowski\', \'epsi\')')
+ 4 APPPATH\Models\Metudiant.php(62): CodeIgniter\Database\BaseConnection->query('INSERT INTO etudiant (mail, pass, nom, prenom, groupe) VALUES (:mail:, :pass:, :nom:, :prenom:, :groupe:)', [...])
+ 5 APPPATH\Controllers\Cadmin.php(62): App\Models\Metudiant->createEtudiant([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->createEtudiant()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 17:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-26 17:44:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':groupe:)' at line 1 in C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO etu...', 0)
+#1 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO etu...')
+#2 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO etu...')
+#3 C:\wamp64\www\WorkShopSN3\app\Models\Metudiant.php(62): CodeIgniter\Database\BaseConnection->query('INSERT INTO etu...', Array)
+#4 C:\wamp64\www\WorkShopSN3\app\Controllers\Cadmin.php(62): App\Models\Metudiant->createEtudiant(Array)
+#5 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Cadmin->createEtudiant()
+#6 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+#7 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\WorkShopSN3\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-09-26 17:44:31 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':groupe:)' at line 1
+[Method: GET, Route: Cadmin/createEtudiant]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Metudiant.php(62): CodeIgniter\Database\BaseConnection->query('INSERT INTO etudiant (mail, pass, nom, prenom, groupe) VALUES (:mail:, :pass:, :nom:, :prenom:, :groupe:)', [...])
+ 2 APPPATH\Controllers\Cadmin.php(62): App\Models\Metudiant->createEtudiant([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->createEtudiant()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 17:44:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':groupe:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO etudiant (mail, pass, nom, prenom, groupe) VALUES (\'mmal.agowski@ecoles-epsi.net\', \'Mmalagowski1\', \'AGOWSKI\', \'Mmal\', :groupe:)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO etudiant (mail, pass, nom, prenom, groupe) VALUES (\'mmal.agowski@ecoles-epsi.net\', \'Mmalagowski1\', \'AGOWSKI\', \'Mmal\', :groupe:)')
+ 3 APPPATH\Models\Metudiant.php(62): CodeIgniter\Database\BaseConnection->query('INSERT INTO etudiant (mail, pass, nom, prenom, groupe) VALUES (:mail:, :pass:, :nom:, :prenom:, :groupe:)', [...])
+ 4 APPPATH\Controllers\Cadmin.php(62): App\Models\Metudiant->createEtudiant([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->createEtudiant()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 17:44:31 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':groupe:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO etudiant (mail, pass, nom, prenom, groupe) VALUES (\'mmal.agowski@ecoles-epsi.net\', \'Mmalagowski1\', \'AGOWSKI\', \'Mmal\', :groupe:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO etudiant (mail, pass, nom, prenom, groupe) VALUES (\'mmal.agowski@ecoles-epsi.net\', \'Mmalagowski1\', \'AGOWSKI\', \'Mmal\', :groupe:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO etudiant (mail, pass, nom, prenom, groupe) VALUES (\'mmal.agowski@ecoles-epsi.net\', \'Mmalagowski1\', \'AGOWSKI\', \'Mmal\', :groupe:)')
+ 4 APPPATH\Models\Metudiant.php(62): CodeIgniter\Database\BaseConnection->query('INSERT INTO etudiant (mail, pass, nom, prenom, groupe) VALUES (:mail:, :pass:, :nom:, :prenom:, :groupe:)', [...])
+ 5 APPPATH\Controllers\Cadmin.php(62): App\Models\Metudiant->createEtudiant([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->createEtudiant()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 17:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 17:47:38 --> ErrorException: Undefined variable $fullName
+[Method: GET, Route: Cadmin/createEtudiant]
+in APPPATH\Models\Metudiant.php on line 36.
+ 1 APPPATH\Models\Metudiant.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fullName', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Models\\Metudiant.php', 36)
+ 2 APPPATH\Controllers\Cadmin.php(62): App\Models\Metudiant->createEtudiant([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->createEtudiant()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 17:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-26 18:13:03 --> mysqli_sql_exception: Unknown column 'login' in 'where clause' in C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\wamp64\www\WorkShopSN3\app\Models\Metudiant.php(189): CodeIgniter\BaseModel->first()
+#7 C:\wamp64\www\WorkShopSN3\app\Controllers\Cconnexion.php(38): App\Models\Metudiant->loginPersonne(Array)
+#8 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Cconnexion->authentification()
+#9 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cconnexion))
+#10 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\WorkShopSN3\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\WorkShopSN3\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-26 18:13:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'login' in 'where clause'
+[Method: POST, Route: Cconnexion/authentification]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `etudiant`
+WHERE `mail` = :mail:
+OR `login` = :login:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\Metudiant.php(189): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Cconnexion.php(38): App\Models\Metudiant->loginPersonne([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cconnexion->authentification()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cconnexion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 18:13:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'login' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `etudiant`
+WHERE `mail` = \'ayoub.fathallah@ecoles-epsi.net\'
+OR `login` = \'ayoub.fathallah@ecoles-epsi.net\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `etudiant`
+WHERE `mail` = \'ayoub.fathallah@ecoles-epsi.net\'
+OR `login` = \'ayoub.fathallah@ecoles-epsi.net\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `etudiant`
+WHERE `mail` = :mail:
+OR `login` = :login:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Models\Metudiant.php(189): CodeIgniter\BaseModel->first()
+ 7 APPPATH\Controllers\Cconnexion.php(38): App\Models\Metudiant->loginPersonne([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cconnexion->authentification()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cconnexion))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 18:13:03 --> [Caused by] mysqli_sql_exception: Unknown column 'login' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `etudiant`
+WHERE `mail` = \'ayoub.fathallah@ecoles-epsi.net\'
+OR `login` = \'ayoub.fathallah@ecoles-epsi.net\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `etudiant`
+WHERE `mail` = \'ayoub.fathallah@ecoles-epsi.net\'
+OR `login` = \'ayoub.fathallah@ecoles-epsi.net\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `etudiant`
+WHERE `mail` = \'ayoub.fathallah@ecoles-epsi.net\'
+OR `login` = \'ayoub.fathallah@ecoles-epsi.net\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `etudiant`
+WHERE `mail` = :mail:
+OR `login` = :login:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\Metudiant.php(189): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Cconnexion.php(38): App\Models\Metudiant->loginPersonne([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cconnexion->authentification()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cconnexion))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 18:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 18:15:07 --> ErrorException: Undefined array key "user"
+[Method: POST, Route: Cconnexion/authentification]
+in APPPATH\Models\Metudiant.php on line 186.
+ 1 APPPATH\Models\Metudiant.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Models\\Metudiant.php', 186)
+ 2 APPPATH\Controllers\Cconnexion.php(38): App\Models\Metudiant->loginPersonne([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cconnexion->authentification()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cconnexion))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 18:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 18:15:22 --> ErrorException: Undefined array key "user"
+[Method: POST, Route: Cconnexion/authentification]
+in APPPATH\Models\Metudiant.php on line 186.
+ 1 APPPATH\Models\Metudiant.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Models\\Metudiant.php', 186)
+ 2 APPPATH\Controllers\Cconnexion.php(38): App\Models\Metudiant->loginPersonne([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cconnexion->authentification()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cconnexion))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 18:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 18:15:51 --> ErrorException: Undefined variable $prenom
+[Method: GET, Route: Cfiche]
+in APPPATH\Views\v_fiche.php on line 12.
+ 1 APPPATH\Views\v_fiche.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prenom', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_fiche.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_fiche.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_fiche', [], true)
+ 5 APPPATH\Controllers\Cfiche.php(34): view('v_fiche', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cfiche->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cfiche))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 18:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 18:16:38 --> ErrorException: Undefined variable $bio
+[Method: GET, Route: Cfiche]
+in APPPATH\Views\v_fiche.php on line 35.
+ 1 APPPATH\Views\v_fiche.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bio', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_fiche.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_fiche.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_fiche', [], true)
+ 5 APPPATH\Controllers\Cfiche.php(34): view('v_fiche', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cfiche->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cfiche))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 18:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 18:37:07 --> ErrorException: Undefined variable $result_check_ETD
+[Method: GET, Route: Cadmin/GestionFiche]
+in APPPATH\Views\v_gestion_fiche.php on line 18.
+ 1 APPPATH\Views\v_gestion_fiche.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result_check_ETD', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_gestion_fiche', [], true)
+ 5 APPPATH\Controllers\Cadmin.php(81): view('v_gestion_fiche')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->GestionFiche()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 18:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 18:37:58 --> ErrorException: Undefined variable $result_check_ETD
+[Method: GET, Route: Cadmin/GestionFiche]
+in APPPATH\Views\v_gestion_fiche.php on line 18.
+ 1 APPPATH\Views\v_gestion_fiche.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result_check_ETD', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_gestion_fiche', [], true)
+ 5 APPPATH\Controllers\Cadmin.php(85): view('v_gestion_fiche')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->GestionFiche()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 18:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 18:38:26 --> ErrorException: Undefined variable $result_check_ETD
+[Method: GET, Route: Cadmin/GestionFiche]
+in APPPATH\Views\v_gestion_fiche.php on line 18.
+ 1 APPPATH\Views\v_gestion_fiche.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result_check_ETD', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_gestion_fiche', [], true)
+ 5 APPPATH\Controllers\Cadmin.php(85): view('v_gestion_fiche')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->GestionFiche()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 18:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 18:39:01 --> ErrorException: Undefined variable $result_ETD
+[Method: GET, Route: Cadmin/GestionFiche]
+in APPPATH\Views\v_gestion_fiche.php on line 18.
+ 1 APPPATH\Views\v_gestion_fiche.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result_ETD', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_gestion_fiche', [], true)
+ 5 APPPATH\Controllers\Cadmin.php(85): view('v_gestion_fiche')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->GestionFiche()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 18:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 18:42:53 --> ErrorException: Undefined variable $result_ETD
+[Method: GET, Route: Cadmin/GestionFiche]
+in APPPATH\Views\v_gestion_fiche.php on line 18.
+ 1 APPPATH\Views\v_gestion_fiche.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result_ETD', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_gestion_fiche', [], true)
+ 5 APPPATH\Controllers\Cadmin.php(85): view('v_gestion_fiche')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->GestionFiche()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 18:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 18:42:59 --> ErrorException: Undefined variable $result_ETD
+[Method: GET, Route: Cadmin/GestionFiche]
+in APPPATH\Views\v_gestion_fiche.php on line 18.
+ 1 APPPATH\Views\v_gestion_fiche.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result_ETD', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_gestion_fiche', [], true)
+ 5 APPPATH\Controllers\Cadmin.php(85): view('v_gestion_fiche')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->GestionFiche()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 18:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 18:43:04 --> ErrorException: Undefined variable $result_ETD
+[Method: GET, Route: Cadmin/GestionFiche]
+in APPPATH\Views\v_gestion_fiche.php on line 18.
+ 1 APPPATH\Views\v_gestion_fiche.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result_ETD', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_gestion_fiche', [], true)
+ 5 APPPATH\Controllers\Cadmin.php(85): view('v_gestion_fiche')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->GestionFiche()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 18:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 18:43:06 --> ErrorException: Undefined variable $result_ETD
+[Method: GET, Route: Cadmin/GestionFiche]
+in APPPATH\Views\v_gestion_fiche.php on line 18.
+ 1 APPPATH\Views\v_gestion_fiche.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result_ETD', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_gestion_fiche', [], true)
+ 5 APPPATH\Controllers\Cadmin.php(85): view('v_gestion_fiche')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->GestionFiche()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 18:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 18:43:07 --> ErrorException: Undefined variable $result_ETD
+[Method: GET, Route: Cadmin/GestionFiche]
+in APPPATH\Views\v_gestion_fiche.php on line 18.
+ 1 APPPATH\Views\v_gestion_fiche.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result_ETD', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_gestion_fiche', [], true)
+ 5 APPPATH\Controllers\Cadmin.php(85): view('v_gestion_fiche')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->GestionFiche()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 18:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 18:43:08 --> ErrorException: Undefined variable $result_ETD
+[Method: GET, Route: Cadmin/GestionFiche]
+in APPPATH\Views\v_gestion_fiche.php on line 18.
+ 1 APPPATH\Views\v_gestion_fiche.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result_ETD', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_gestion_fiche.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_gestion_fiche', [], true)
+ 5 APPPATH\Controllers\Cadmin.php(85): view('v_gestion_fiche')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->GestionFiche()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 18:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 19:01:03 --> ErrorException: Cannot declare class App\Controllers\Chub, because the name is already in use
+[Method: GET, Route: Ccarte]
+in APPPATH\Controllers\Ccarte.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-09-26 19:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 20:17:35 --> ErrorException: Undefined variable $result_ETD
+[Method: GET, Route: Ccontact]
+in APPPATH\Views\v_contact.php on line 68.
+ 1 APPPATH\Views\v_contact.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result_ETD', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_contact.php', 68)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_contact.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_contact', [], true)
+ 5 APPPATH\Controllers\Ccontact.php(23): view('v_contact')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ccontact->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontact))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 20:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 20:17:59 --> ErrorException: Undefined variable $result
+[Method: GET, Route: Ccontact]
+in APPPATH\Views\v_contact.php on line 68.
+ 1 APPPATH\Views\v_contact.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_contact.php', 68)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_contact.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_contact', [], true)
+ 5 APPPATH\Controllers\Ccontact.php(23): view('v_contact')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ccontact->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontact))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 20:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 20:18:37 --> ErrorException: Undefined array key "mail"
+[Method: GET, Route: Ccontact]
+in APPPATH\Views\v_contact.php on line 85.
+ 1 APPPATH\Views\v_contact.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mail"', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_contact.php', 85)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_contact.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_contact', [], true)
+ 5 APPPATH\Controllers\Ccontact.php(23): view('v_contact', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ccontact->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontact))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 20:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 20:20:16 --> ErrorException: Array to string conversion
+[Method: GET, Route: Ccontact]
+in APPPATH\Views\v_contact.php on line 85.
+ 1 APPPATH\Views\v_contact.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_contact.php', 85)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_contact.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_contact', [], true)
+ 5 APPPATH\Controllers\Ccontact.php(23): view('v_contact', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ccontact->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontact))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 20:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 20:20:30 --> ErrorException: Undefined array key "mail"
+[Method: GET, Route: Ccontact]
+in APPPATH\Views\v_contact.php on line 85.
+ 1 APPPATH\Views\v_contact.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mail"', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_contact.php', 85)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_contact.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_contact', [], true)
+ 5 APPPATH\Controllers\Ccontact.php(23): view('v_contact', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ccontact->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontact))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 20:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 20:53:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_contact_profil.php"
+[Method: GET, Route: Ccontact/voirProfil/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_contact_profil.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_contact_profil', [], true)
+ 3 APPPATH\Controllers\Ccontact.php(36): view('v_contact_profil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ccontact->voirProfil('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccontact))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 20:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-26 20:54:16 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\v_profil.php on line 71.
+ 1 APPPATH\Views\v_profil.php(71): DateTime->__construct(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_profil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_profil', [], true)
+ 5 APPPATH\Controllers\Cadmin.php(96): view('v_profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->voirEtudiant('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 20:54:16 --> ErrorException: Undefined variable $titre
+[Method: GET, Route: Cadmin/voirEtudiant/2]
+in APPPATH\Views\Commun\v_template_admin.php on line 7.
+ 1 APPPATH\Views\Commun\v_template_admin.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titre', 'C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\Commun\\v_template_admin.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\Commun\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Commun/v_template_admin', [], true)
+ 5 APPPATH\Controllers\Cadmin.php(98): view('Commun/v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->voirEtudiant('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 20:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-26 20:55:15 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\v_profil.php on line 71.
+ 1 APPPATH\Views\v_profil.php(71): DateTime->__construct(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_profil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_profil', [], true)
+ 5 APPPATH\Controllers\Cadmin.php(98): view('v_profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->voirEtudiant('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 20:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-26 21:02:36 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\v_profil.php on line 74.
+ 1 APPPATH\Views\v_profil.php(74): DateTime->__construct(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_profil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_profil', [], true)
+ 5 APPPATH\Controllers\Cadmin.php(98): view('v_profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->voirEtudiant('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 21:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-26 21:03:18 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\v_profil_admin.php on line 74.
+ 1 APPPATH\Views\v_profil_admin.php(74): DateTime->__construct(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\WorkShopSN3\\app\\Views\\v_profil_admin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_profil_admin', [], true)
+ 5 APPPATH\Controllers\Cadmin.php(98): view('v_profil_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cadmin->voirEtudiant('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadmin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 21:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 21:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

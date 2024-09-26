@@ -7,7 +7,7 @@
                 <p class="mb-6 text-gray-600">Pour toute question, assistance ou pour échanger avec la communauté, vous pouvez rejoindre notre serveur Discord.</p>
 
                 <!-- Discord Button -->
-                <a href="https://discord.gg/4dWmXsSx" target="_blank" class="inline-flex items-center bg-blue-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-400">
+                <a href="https://discord.gg/EnkPGAqZ" target="_blank" class="inline-flex items-center bg-blue-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-400">
                     <img src="https://upload.wikimedia.org/wikipedia/fr/4/4f/Discord_Logo_sans_texte.svg" alt="Discord Logo" class="w-6 h-6 mr-3">
                     Rejoindre notre serveur Discord
                 </a>

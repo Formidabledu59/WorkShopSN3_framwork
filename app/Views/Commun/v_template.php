@@ -47,8 +47,7 @@
                     if (isset($_SESSION['id_etudiant']) == TRUE) {
                     ?>
 
-                        <li><a href="<?php echo base_url('#'); ?>" class="hover:underline">Profil Étudiant</a></li>
-                        <li><a href="#modules" class="hover:underline">Modules</a></li>
+                        <li><a href="<?php echo base_url('Chub/modules'); ?>" class="hover:underline">Modules</a></li>
                         <li><a href="<?php echo base_url('Cconnexion/Deconnexion'); ?>" class="hover:underline">Déconnexion</a></li>
 
                     <?php   } else {

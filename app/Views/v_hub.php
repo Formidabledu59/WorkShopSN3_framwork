@@ -1,5 +1,5 @@
 <!-- Hero Section -->
-<section class="bg-cover bg-center h-screen" style="background-image: url('https://source.unsplash.com/1600x900/?school,technology');">
+<section class="bg-cover bg-center h-screen" style="background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/7099fc28008799.56e41b31e770e.gif');">
         <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
             <div class="text-center text-white">
                 <h2 class="text-5xl font-bold">Bienvenue sur EpsiConect</h2>
@@ -22,12 +22,12 @@
                 <div class="bg-white shadow-lg rounded-lg p-6">
                     <h3 class="text-2xl font-semibold mb-4">Fiche Étudiant</h3>
                     <p class="text-gray-600">Gérez et visualisez les profils des étudiants.</p>
-                    <a href="fiche_etudiant.html" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-400">Accéder</a>
+                    <a href="<?php echo base_url('Cfiche'); ?>" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-400">Accéder</a>
                 </div>
                 <div class="bg-white shadow-lg rounded-lg p-6">
-                    <h3 class="text-2xl font-semibold mb-4">Visualisation des Salles</h3>
-                    <p class="text-gray-600">Visualisez l’état des salles en temps réel.</p>
-                    <a href="#rooms" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-400">Accéder</a>
+                    <h3 class="text-2xl font-semibold mb-4">Contact</h3>
+                    <p class="text-gray-600">Jetez un oeil autour de vous.</p>
+                    <a href="<?php echo base_url('Ccontact'); ?>" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-400">Accéder</a>
                 </div>
                 <!-- Ajouter d'autres modules ici -->
             </div>

@@ -21,4 +21,11 @@ class Chub extends BaseController
         return view('Commun/v_template', $page);
     }
 
+    public function modules()
+    {
+        $page['contenu'] = view('v_modules');
+        $page['css'] = 'css/style_hub.css';
+        return view('Commun/v_template', $page);
+    }
+
 }

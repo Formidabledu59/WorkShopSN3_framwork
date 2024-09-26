@@ -105,8 +105,16 @@ class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
     );
 
     public static $classMap = array (
+        'App\\Controllers\\Api\\Etudiant' => __DIR__ . '/../..' . '/app/Controllers/Api/Etudiant.php',
         'App\\Controllers\\BaseController' => __DIR__ . '/../..' . '/app/Controllers/BaseController.php',
-        'App\\Controllers\\Home' => __DIR__ . '/../..' . '/app/Controllers/Home.php',
+        'App\\Controllers\\Caccueil' => __DIR__ . '/../..' . '/app/Controllers/Caccueil.php',
+        'App\\Controllers\\Cadmin' => __DIR__ . '/../..' . '/app/Controllers/Cadmin.php',
+        'App\\Controllers\\Ccarte' => __DIR__ . '/../..' . '/app/Controllers/Ccarte.php',
+        'App\\Controllers\\Cconnexion' => __DIR__ . '/../..' . '/app/Controllers/Cconnexion.php',
+        'App\\Controllers\\Cfiche' => __DIR__ . '/../..' . '/app/Controllers/Cfiche.php',
+        'App\\Controllers\\Chub' => __DIR__ . '/../..' . '/app/Controllers/Chub.php',
+        'App\\Models\\Mcheck_etudiant' => __DIR__ . '/../..' . '/app/Models/Mcheck_etudiant.php',
+        'App\\Models\\Metudiant' => __DIR__ . '/../..' . '/app/Models/Metudiant.php',
         'CodeIgniter\\API\\ResponseTrait' => __DIR__ . '/..' . '/codeigniter4/framework/system/API/ResponseTrait.php',
         'CodeIgniter\\Autoloader\\Autoloader' => __DIR__ . '/..' . '/codeigniter4/framework/system/Autoloader/Autoloader.php',
         'CodeIgniter\\Autoloader\\FileLocator' => __DIR__ . '/..' . '/codeigniter4/framework/system/Autoloader/FileLocator.php',

@@ -15,8 +15,8 @@
         <h1 class="text-3xl font-bold"><a href="<?php echo base_url('Cadmin'); ?>">EpsiConect Admin</a></h1>
         <nav>
             <ul class="flex space-x-6">
-                <li><a href="<?php echo base_url('Cadmin'); ?>" class="hover:underline">Menu</a></li>
-                <li><a href="<?php echo base_url(''); ?>" class="hover:underline">Déconnexion</a></li>
+                <li><a href="<?php echo base_url('Chub'); ?>" class="hover:underline">Menu</a></li>
+                <li><a href="<?php echo base_url('Cconnexion/Deconnexion'); ?>" class="hover:underline">Déconnexion</a></li>
             </ul>
         </nav>
     </header>

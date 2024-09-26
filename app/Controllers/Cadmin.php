@@ -22,7 +22,7 @@ class Cadmin extends Controller
 
         // Liste des IDs autorisés
         $authorizedIds = [1, 2, 3, 4];
-        
+
         // Vérifier si l'utilisateur est connecté et autorisé
         if (!isset($_SESSION['id_etudiant']) || !in_array($_SESSION['id_etudiant'], $authorizedIds)) {
             // Redirection vers la page d'accueil si non autorisé
@@ -36,6 +36,7 @@ class Cadmin extends Controller
     public function GestionETD()
     {
         $page['titre'] = "Gestion ETD";
+
         $checkEtudiantModel = new Mcheck_etudiant();
         $data['result_check_ETD'] = $checkEtudiantModel->getAllCheckEtudiant();
 
@@ -59,9 +60,9 @@ class Cadmin extends Controller
         $id = $this->request->getGet('id_etudiant');
 
         // Insérer les données dans la base
-        $etudiantModel->createEtudiant($data);
-
-        return redirect()->to('Cadmin/deleteCheckEtudiant/' . $id); // Redirection après ajout
+        if ($etudiantModel->createEtudiant($data)) {
+            return redirect()->to('Cadmin/deleteCheckEtudiant/' . $id); // Redirection après ajout
+        }
     }
 
     public function deleteCheckEtudiant($id)
@@ -77,9 +78,28 @@ class Cadmin extends Controller
     public function GestionFiche()
     {
         $page['titre'] = "Gestion Fiche";
-        $page['contenu'] = view('v_gestion_fiche');
+
+        $etudiantModel = new Metudiant();
+        $data['result_ETD'] = $etudiantModel->getAllEtudiant();
+
+        $page['contenu'] = view('v_gestion_fiche', $data);
         return view('Commun/v_template_admin', $page);
     }
+
+    public function voirEtudiant($id)
+    {
+        $page['titre'] = "Visualisation Profil";
+
+        // Charger le modèle
+        $etudiantModel = new Metudiant();
+        $data['result'] = $etudiantModel->getEtudiant($id);
+
+
+        $page['contenu'] = view('v_profil_admin', $data);
+        $page['css'] = 'css/profil.css';
+        return view('Commun/v_template_admin', $page);
+    }
+
     public function Support()
     {
         $page['titre'] = "Support";

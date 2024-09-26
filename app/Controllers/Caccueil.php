@@ -9,7 +9,7 @@ use CodeIgniter\Controller;
 class Caccueil extends Controller
 {
     protected $session;
-    
+
     public function __construct()
     {
         // Initialisation de la session
@@ -18,6 +18,11 @@ class Caccueil extends Controller
 
     public function index()
     {
+        // Vérifier si l'utilisateur est connecté et autorisé
+        if (isset($_SESSION['id_etudiant']) == TRUE) {
+            // Redirection vers la page d'accueil si non autorisé
+            return redirect()->to('Chub');
+        }
         $page['contenu'] = view('v_accueil');
         $page['css'] = 'css/style_accueil.css';
         return view('Commun/v_template', $page);
