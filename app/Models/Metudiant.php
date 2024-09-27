@@ -201,6 +201,22 @@ class Metudiant extends Model
         return $result ? true : false;
     }
 
+    public function updatePPEtudiant($data)
+    {
+        // Préparation de la requête SQL sans les deux points autour des paramètres
+        $sql = "UPDATE {$this->table} 
+                    SET photo_profil = ?
+                    WHERE id_etudiant = ?";
+
+        // Exécution de la requête avec les données
+        $result = $this->db->query($sql, [
+            $data['photo_profil'],
+            $data['id'] // L'ID en dernier, pour la condition WHERE
+        ]);
+
+        return $result ? true : false;
+    }
+
     // public function updateEtudiant($data)
     // {
     //     // Préparation de la requête SQL avec des paramètres nommés

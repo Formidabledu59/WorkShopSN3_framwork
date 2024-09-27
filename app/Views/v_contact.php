@@ -73,8 +73,13 @@
                         //echo "$i\n\t-\t";
 
                         echo '<div class="bg-white p-5 rounded-lg shadow-md text-center">';
+
                         if (!is_null($row['photo_profil'])) {
-                            echo '<img class="h-32 w-32 rounded-full mx-auto" src="' . base_url('') . $row['photo_profil'] . '" alt="Student Profile">';
+                            if (($row['id_etudiant']) == 1) {
+                                echo '<img class="h-32 w-32 rounded-full mx-auto" src="' . $row['photo_profil'] . '" alt="Student Profile">';
+                            } else {
+                                echo '<img class="h-32 w-32 rounded-full mx-auto" src="' . base_url($row['photo_profil'])  . '" alt="Student Profile">';
+                            }
                         } else {
                             echo '<img class="h-32 w-32 rounded-full mx-auto" src="https://t4.ftcdn.net/jpg/05/09/59/75/360_F_509597532_RKUuYsERhODmkxkZd82pSHnFtDAtgbzJ.jpg" alt="Student Profile">';
                         }

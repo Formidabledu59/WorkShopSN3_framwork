@@ -114,3 +114,41 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 });
+
+function openModal() {
+    document.getElementById('modal').classList.remove('hidden');
+}
+
+function closeModal() {
+    document.getElementById('modal').classList.add('hidden');
+}
+
+function selectAvatar(avatarUrl) {
+    const profilePicture = document.getElementById('profilePicture');
+    if (profilePicture) {
+        profilePicture.src = avatarUrl;
+
+        // Mettre à jour le champ caché avec l'URL de l'avatar sélectionné
+        document.getElementById('selectedAvatar').value = avatarUrl;
+
+        // Fermer le modal
+        closeModal();
+    } else {
+        console.error('Element with ID "profilePicture" not found.');
+    }
+}
+
+function openModal() {
+    document.getElementById('modal').classList.remove('hidden');
+}
+
+function closeModal() {
+    document.getElementById('modal').classList.add('hidden');
+}
+
+function selectAvatar(avatarPath) {
+    document.getElementById('selectedAvatar').value = avatarPath;
+    closeModal();
+}
+
+

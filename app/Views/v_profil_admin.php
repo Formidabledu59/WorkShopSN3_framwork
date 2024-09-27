@@ -4,8 +4,17 @@
         <div class="w-full md:w-3/12 md:mx-2">
             <div class="bg-white p-3 border-t-4 border-blue-400">
                 <div class="image overflow-hidden">
-                    <img class="h-auto w-full mx-auto" src="https://t4.ftcdn.net/jpg/05/09/59/75/360_F_509597532_RKUuYsERhODmkxkZd82pSHnFtDAtgbzJ.jpg" alt="Student Profile">
-                </div>
+                    <?php
+                    if (!is_null($result['photo_profil'])) {
+                        if (($result['id_etudiant']) == 1) {
+                            echo '<img class="h-auto w-full mx-auto" src="https://c.tenor.com/jKf47se2ud8AAAAd/tenor.gif" alt="Student Profile">';
+                        } else {
+                            echo '<img class="h-auto w-full mx-auto" src="' . $result['photo_profil'] . '" alt="Student Profile">';
+                        }
+                    } else {
+                        echo '<img class="h-auto w-full mx-auto" src="https://t4.ftcdn.net/jpg/05/09/59/75/360_F_509597532_RKUuYsERhODmkxkZd82pSHnFtDAtgbzJ.jpg" alt="Student Profile">';
+                    }
+                    ?></div>
                 <h1 class="text-gray-900 font-bold text-xl leading-8 my-1">
                     <?php echo $result['prenom'] . " " . $result['nom']; ?>
                 </h1>

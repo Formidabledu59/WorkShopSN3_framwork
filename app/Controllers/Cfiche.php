@@ -38,7 +38,19 @@ class Cfiche extends BaseController
 
     public function ModifieFiche()
     {
-        $page['contenu'] = view('v_fiche_update');
+        if (!isset($_SESSION['id_etudiant'])) {
+            // Redirection vers la page d'accueil si non autorisé
+            return redirect()->to('Caccueil');
+        }
+
+        // Charger le modèle
+        $etudiantModel = new Metudiant();
+
+        $id = $_SESSION['id_etudiant'];
+
+        $data['result'] = $etudiantModel->getEtudiant($id);
+
+        $page['contenu'] = view('v_fiche_update', $data);
         $page['css'] = 'css/profil.css';
         return view('Commun/v_template', $page);
     }
@@ -93,6 +105,28 @@ class Cfiche extends BaseController
 
         // Appeler la méthode de mise à jour du modèle
         $updateSuccess = $etudiantModel->updateBioEtudiant($data);
+
+        if ($updateSuccess) {
+            // Redirigez ou affichez un message de succès
+            return redirect()->to('Cfiche');  // Remplacez par le chemin vers votre vue
+        } else {
+            // Gérer l'échec de la mise à jour
+            return redirect()->to('Cfiche/ficheUpdate');  // Remplacez par le chemin vers votre vue
+        }
+    }
+    public function ppUpdate()
+    {
+        // Charger le modèle
+        $etudiantModel = new Metudiant();
+
+        // Récupérer les données envoyées depuis la vue
+        $data = [
+            'id' => $_SESSION['id_etudiant'],
+            'photo_profil' => $this->request->getPost('pp')
+        ];
+
+        // Appeler la méthode de mise à jour du modèle
+        $updateSuccess = $etudiantModel->updatePPEtudiant($data);
 
         if ($updateSuccess) {
             // Redirigez ou affichez un message de succès

@@ -4,7 +4,17 @@
         <div class="w-full md:w-3/12 md:mx-2">
             <div class="bg-white p-3 border-t-4 border-blue-400">
                 <div class="image overflow-hidden">
-                    <img class="h-auto w-full mx-auto" src="https://t4.ftcdn.net/jpg/05/09/59/75/360_F_509597532_RKUuYsERhODmkxkZd82pSHnFtDAtgbzJ.jpg" alt="Student Profile">
+                    <?php
+                    if (!is_null($result['photo_profil'])) {
+                        if (($result['id_etudiant']) == 1) {
+                            echo '<img class="h-auto w-full mx-auto" src="' . $result['photo_profil'] . '" alt="Student Profile">';
+                        } else {
+                            echo '<img class="h-auto w-full mx-auto" src="' . base_url($result['photo_profil']) . '" alt="Student Profile">';
+                        }
+                    } else {
+                        echo '<img class="h-auto w-full mx-auto" src="https://t4.ftcdn.net/jpg/05/09/59/75/360_F_509597532_RKUuYsERhODmkxkZd82pSHnFtDAtgbzJ.jpg" alt="Student Profile">';
+                    }
+                    ?>
                 </div>
                 <h1 class="text-gray-900 font-bold text-xl leading-8 my-1">
                     <?php echo $result['prenom'] . " " . $result['nom']; ?>
@@ -47,7 +57,7 @@
             </div>
             <a href="<?php echo base_url('Ccontact'); ?>" class="block w-full text-white text-sm font-semibold bg-blue-500 hover:bg-blue-600 focus:outline-none focus:shadow-outline focus:bg-blue-600 rounded-lg p-3 my-4">
                 < Retour
-            </a>
+                    </a>
         </div>
 
         <!-- Profile Details -->
